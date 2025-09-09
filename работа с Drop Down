@@ -32,4 +32,5 @@ print("Click Login Button")
 select = Select(driver.find_element(By.XPATH, "//select[@class='product_sort_container']"))
 
 time.sleep(3)
-select.select_by_visible_text('Name (Z to A)')
+#select.select_by_visible_text('Name (Z to A)')
+select.select_by_value('za')
